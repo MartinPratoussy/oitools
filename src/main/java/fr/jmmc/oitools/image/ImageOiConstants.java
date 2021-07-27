@@ -30,6 +30,8 @@ public interface ImageOiConstants {
     public final static String EXTNAME_IMAGE_OI_INPUT_PARAM = "IMAGE-OI INPUT PARAM";
     /** IMAGE-OI_OUTPUT_PARAM : extension name for IMAGE-OI parameters  */
     public final static String EXTNAME_IMAGE_OI_OUTPUT_PARAM = "IMAGE-OI OUTPUT PARAM";
+    /** IMAGE-OI_USER_APPRECIATION_PARAM : extension name for IMAGE-OI parameters */
+    public final static String EXTNAME_IMAGE_OI_USER_APPRECIATION_PARAM = "IMAGE-OI USER APPRECIATION PARAM";
 
     // Data Selection keywords
     /** TARGET keyword */
@@ -76,4 +78,10 @@ public interface ImageOiConstants {
     public final static String KEYWORD_NITER = "NITER";
     /** CHISQ keyword */
     public final static String KEYWORD_CHISQ = "CHISQ";
+    
+    // User appreciation keywords
+    /** Rating */
+    public final static String KEYWORD_RATING = "RATING";
+    /** Comments */
+    public final static String KEYWORD_COMMENTS = "COMMENTS";
 }
